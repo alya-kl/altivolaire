@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<!-- Coding by CodingNepal - youtube.com/@codingnepal -->
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>altivolaire</title>
+    <!-- Linking Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!--Header / Navbar-->
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text">⛅ altivolaire</h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link">🏡 Haven</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#story" class="nav-link">✨ Story</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Collection" class="nav-link">🌸 Collection</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#kindword" class="nav-link">📝 Kind Word</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#connect" class="nav-link">📮 Connect</a>
+                </li>
+            </ul>
+
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+
+    <main>
+        <!--Hero section-->
+        <section class="hero-section">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">Curated with Soul</h2>
+                    <h3 class="subtitle">Adorned 2 match ut Style</h3>
+                    <p class="description">Welcome to Altivolaire, where slow hands and curious hearts come together to create pieces that speak not just to the eyes, but to the soul.</p>
+                    
+                    <div class="buttons">
+                        <a href="#" class="button lets-connect"> Let’s Connect </a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="logo altivolaire.png" alt="Hero" class="hero-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- Story section-->
+        <section class="story-section" id="story">
+            <div class="section-content">
+                <div class="story-image-wrapper">
+                    <img src="our story.jpg" alt="story" class="story-image">
+                </div>
+                <div class="story-details">
+                    <h2 class="section-title">Our Story</h2>
+                    <p class="text">Not merely about what is made, but about keindahan that lahir dari hati, shaped with kesabaran, and offered with sepenuh jiwa. Every piece is born from rasa penasaran, touched with niat yang tulus, and an attention to detail that often slips quietly from sight. I believe that true beauty is not only about what meets the eye but also about the cerita, the emosi, and the energy that lives within.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Collection section-->
+        <section class="collection-section" id="Collection">
+            <h2 class="section-title">Collection</h2>
+            <div class="section-content">
+                <ul class="collection-list">
+                    <li class="collection-item">
+                        <img src="1.jpg" alt="Cardigan" class="collection-image">
+                        <div class="collection-details">
+                            <h2 class="name">Cardigan</h2>
+                            <p class="text">Rajutan katun krem tepi biru, berbentuk rompi tanpa lengan dengan motif ikan di tengah menyerupai label kaleng.</p>
+                            <h3 class="harga">Rp 50.000</h3>
+                        </div>
+                    </li>
+                    <li class="collection-item">
+                        <img src="2.jpg" alt="Tas Rajut" class="collection-image">
+                        <div class="collection-details">
+                            <h2 class="name">Tas Rajut</h2>
+                            <p class="text">Tas rajut biru berhias bintang laut dan ubur-ubur rajut, menyerupai tema bawah laut.</p>
+                            <h3 class="harga">Rp 80.000</h3>   
+                        </div>
+                    </li>
+                    <li class="collection-item">
+                        <img src="3.jpg" alt="Bros" class="collection-image">
+                        <div class="collection-details">
+                            <h2 class="name">Bros</h2>
+                            <p class="text">Bros manik-manik membentuk ikan badut oranye di latar biru, menyerupai akuarium mini.</p>
+                            <h3 class="harga">Rp 25.000</h3>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Kind Word Section -->
+        <section class="kindword-section" id="kindword">
+            <h2 class="section-title">Kind Words</h2>
+
+            <div class="section-content">
+            <!-- Form untuk memberi komentar -->
+                <div class="form-section">
+                    <div class="stars" id="star-rating">
+                        <span data-rating="1">★</span>
+                        <span data-rating="2">★</span>
+                        <span data-rating="3">★</span>
+                        <span data-rating="4">★</span>
+                        <span data-rating="5">★</span>
+                    </div>
+
+                    <input type="text" id="name" placeholder="Nama Anda" class="form-input" />
+                    <textarea id="comment" placeholder="Tulis komentar..." class="form-input"></textarea>
+                    <button id="submit" class="button submit-button">Kirim</button>
+                </div>
+
+            <!-- Wrapper komentar -->
+            <div class="testimonial-wrapper">
+                <button id="prev" class="nav-btn">←</button>
+                <div class="testimonial-container" id="testimonial-container"></div>
+                <button id="next" class="nav-btn">→</button>
+            </div>
+
+            <!-- Dots pagination -->
+            <div class="dots-container" id="dots-container"></div>
+        </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="connect">
+            <h2 class="section-title">Connect</h2>
+            <div class="contact-logo">
+                <img src="logo altivolaire.png" alt="Logo Altivolaire">
+            </div>
+            <div class="social-icons">
+                <a href="https://wa.me/6281234567890" target="_blank" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://facebook.com/username" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://linkedin.com/in/username" target="_blank" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://spotify.com/user/username" target="_blank" class="spotify"><i class="fab fa-spotify"></i></a>
+                <a href="https://instagram.com/altivolaire" target="_blank" id="instagram-link" class="instagram"><i class="fab fa-instagram"></i></a>
+                <a href="tel:+6281234567890" class="phone"><i class="fas fa-phone"></i></a>
+                <a href="https://t.me/username" target="_blank" class="telegram"><i class="fab fa-telegram-plane"></i></a>
+            </div>
+        </section>
+
+        <!-- Toast Notification -->
+        <div id="toast" class="toast">Username disalin</div>
+
+        <!--Footer section-->
+        <footer class="footer-section">
+            <div class="section-content">
+                <p class="copyright-text">© 2025 altivolaire</p>
+
+                <div class="policy-text">
+                    <a href="#" class="policy-link">Privacy Policy</a>
+                    <span class="separator">•</span>
+                    <a href="#" class="policy-link">Refund Policy</a>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
